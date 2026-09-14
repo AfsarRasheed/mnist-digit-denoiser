@@ -217,12 +217,18 @@ needed anywhere in this project.
 This is a standard Next.js App Router project — no custom `vercel.json` is
 needed.
 
+**Live**: https://mnist-digit-denoiser.vercel.app
+
 1. Push the repository to GitHub/GitLab/Bitbucket.
 2. In Vercel, "Add New Project" → import the repository. The Next.js
    preset is auto-detected.
 3. Leave build/output settings at their defaults (`next build`).
 4. No environment variables are required for the default architecture.
 5. Deploy. `/api/predict` becomes a Vercel serverless function automatically.
+
+This project's Vercel deployment is connected directly to the
+`AfsarRasheed/mnist-digit-denoiser` GitHub repository, so every push to
+`main` triggers a new production deployment automatically.
 
 ## Netlify Deployment
 
